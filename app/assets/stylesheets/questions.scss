@@ -1,0 +1,53 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 30px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+#btn-blue {
+  background-color: #1a73e8;
+  border: 1px solid #1a73e8;
+  border-radius: 5px;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+}
+
+.display-question {
+  padding: 5px;
+  margin: 10px;
+  border-left: 6px solid #e6e6e6;
+}
+
+.display-answer {
+  background-color: #ffffccec;
+  padding: 5px;
+  margin: 10px;
+  border-left: 6px solid #e6e6e6;
+}
+
+input {
+  height: 55px;
+  padding: 15px 30px;
+}
+
+#input-text {
+  width: 90%;
+}
