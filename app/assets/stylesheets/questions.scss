@@ -22,8 +22,10 @@ a {
 #btn-blue {
   background-color: #1a73e8;
   border: 1px solid #1a73e8;
-  border-radius: 5px;
+  border-radius: 0 5px 5px 0;
   color: white;
+  position: absolute;
+  padding: 17px 32px;
 }
 
 p {
@@ -50,4 +52,8 @@ input {
 
 #input-text {
   width: 90%;
+}
+
+#form {
+  position: relative;
 }
