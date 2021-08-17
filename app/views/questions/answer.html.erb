@@ -1,11 +1,13 @@
 <h1>Stupid Coaching</h1>
-<div class="display-question">
-  <p><%= @user_question %></p>
-  <p><em>-You</em></p>
-</div>
 
-<div class="display-answer">
+<blockquote>
+  <p><%= @user_question %></p>
+  <cite>-You</cite>
+</blockquote>
+
+<blockquote class="coach">
   <p><%= @answer %></p>
-  <p><em>-Your coach</em></p>
-</div>
+  <cite>-Your coach</cite>
+</blockquote>
+
 <%= link_to 'Ask a new question', ask_path%>
