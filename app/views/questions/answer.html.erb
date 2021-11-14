@@ -1,7 +1,13 @@
 <h1>Stupid Coaching</h1>
 
 <blockquote>
-  <p><%= @user_question %></p>
+  <p>
+    <% if @user_question.blank? %>
+      😶
+    <% else %>
+      <%= @user_question %>
+    <% end %>
+  </p>
   <cite>-You</cite>
 </blockquote>
 
@@ -10,4 +16,4 @@
   <cite>-Your coach</cite>
 </blockquote>
 
-<%= link_to 'Ask a new question', ask_path%>
+<%= link_to 'Ask a new question', ask_path %>
